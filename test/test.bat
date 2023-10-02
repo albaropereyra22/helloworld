@@ -1,0 +1,10 @@
+curl -v localhost:8848/
+curl -v localhost:8848/user/albaro
+curl -v localhost:8848/hello
+curl -v localhost:8848/hello?name=""
+curl -v localhost:8848/hello?name="albaro"
+curl -v localhost:8848/hello_user
+curl -v localhost:8848/hello_user?user="albaro"
+curl -v localhost:8848/SayHello/
+curl -v localhost:8848/SayHello/hello
+curl -v localhost:8848/View?name="albaro"

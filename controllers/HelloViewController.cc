@@ -23,7 +23,7 @@ class HelloViewController : public HttpSimpleController<HelloViewController>
     {
         HttpViewData data;
         data["name"] = req->getParameter("name");
-        auto resp = HttpResponse::newHttpViewResponse("HelloView", data);
+        auto resp = HttpResponse::newHttpViewResponse("HelloView.csp", data);
         callback(resp);
     }
 };
